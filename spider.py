@@ -155,7 +155,7 @@ def save_to_csv(data):
     except:
         pass
 def main():
-    for i in range(87,101):
+    for i in range(1,101):
         print('crawl page number:',i)
         time.sleep(2 + random.random())
         html=get_index(i, keyword)
